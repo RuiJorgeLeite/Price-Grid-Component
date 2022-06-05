@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Karla', sans-serif;
+    Font-size: 1rem;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-bottom: 1.7rem;  
+    margin-top: 0;
+}
+
+/*Rule for the main container*/
+.main-offer-container {
+    color: hsl(204, 43%, 93%);
+    margin: 10% auto;
+    width: 27%;
+}
+
+/*First Container starting from the top*/
+.appeal-container {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #7e7e7e;
+    padding: 2.5rem 2.5rem 1.6rem;
+}
+
+/*First Container - Changes the weight and color of the first paragraph*/
+.appeal-container p:first-of-type {
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+/*Different line heights used in the design*/
+.one-point-five-line-height {
+    line-height: 1.5;
+}
+
+/*First Container starting from the left*/
+.monthly-price-container {
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    float: left;
+    padding: 2.5rem;
+    position: relative;
+    width: 42.5%;
+}
+
+/*Targets the first paragraph in the container and one id*/
+.monthly-price-container p:first-of-type, #why-us-p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+/*Targets the first paragraph in the container*/
+.monthly-price-container p:first-of-type {
+    margin-bottom: 2rem;
+}
+
+/*Styles the button*/
+.sign-up-btn {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 3rem;
+    margin-left: 10%;
+    margin-top: 1.18rem;
+    padding: 1rem;
+    width: 75%;
+}
+
+/*Styles the price of the service*/
+#price {
+    Font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+
+.price-per-month {
+    font-weight: 100;
+    left: 31%;
+    position: absolute;
+    top: 28%;
+}
+
+/*Second Container starting from the left*/
+.why-us-container {
+    background-color: hsl(179, 42%, 52%);
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+    padding: 2.5rem;
+    width: 34%;
+}
+
+/*Targets the first paragraph in the container*/
+.reasons-container p:first-of-type {
+    margin-top: 2rem;
+}
+
+/*Styles the text inside the container*/
+.reasons-container {
+    Font-size: 0.95rem;
+    font-weight: 200;
+    line-height: 0.5;
+}
