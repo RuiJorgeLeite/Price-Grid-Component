@@ -28,7 +28,7 @@ h2 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: #7e7e7e;
-    padding: 2.5rem 2.5rem 1.6rem;
+    padding: 2.5rem 5% 1.6rem;
 }
 
 /*First Container - Changes the weight and color of the first paragraph*/
@@ -47,9 +47,9 @@ h2 {
     background-color: hsl(179, 62%, 43%);
     border-bottom-left-radius: 10px;
     float: left;
-    padding: 2.5rem;
+    padding: 5%;
     position: relative;
-    width: 42.5%;
+    width: 40%;
 }
 
 /*Targets the first paragraph in the container and one id*/
@@ -58,10 +58,8 @@ h2 {
     font-weight: 700;
     margin-top: 0;
 }
-/*Targets the first paragraph in the container*/
-.monthly-price-container p:first-of-type {
-    margin-bottom: 2rem;
-}
+
+
 
 /*Styles the button*/
 .sign-up-btn {
@@ -73,7 +71,7 @@ h2 {
     font-weight: 700;
     height: 3rem;
     margin-left: 10%;
-    margin-top: 1.18rem;
+    margin-top: 0.3rem;
     padding: 1rem;
     width: 75%;
 }
@@ -82,16 +80,14 @@ h2 {
 #price {
     Font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 1.3rem;
-    margin-right: 1rem;
-    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .price-per-month {
     font-weight: 100;
-    left: 31%;
+    left: 30%;
     position: absolute;
-    top: 28%;
+    top: 29.5%;
 }
 
 /*Second Container starting from the left*/
@@ -99,13 +95,14 @@ h2 {
     background-color: hsl(179, 42%, 52%);
     border-bottom-right-radius: 10px;
     display: inline-block;
-    padding: 2.5rem;
-    width: 34%;
+    padding: 5%;
+    padding-bottom: 3.3%;
+    width: 40%;
 }
 
 /*Targets the first paragraph in the container*/
 .reasons-container p:first-of-type {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 /*Styles the text inside the container*/
